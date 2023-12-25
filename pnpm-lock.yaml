@@ -40,6 +40,7 @@ dependencies:
   markdown-it: 13.0.1
   markdown-it-highlightjs: 4.0.1
   markdown-it-katex: 2.0.3
+  punycode: 2.3.0
   solid-js: 1.7.6
   solidjs-use: 2.1.0
   undici: 5.22.1
@@ -51,7 +52,6 @@ devDependencies:
   '@typescript-eslint/parser': 5.60.0_7yfldhli4vs6yywnkyiujhawka
   '@vite-pwa/astro': 0.1.1_ibgzdbkn5w6cv4ftc63kkfamwi
   eslint-plugin-astro: 0.27.1_eslint@8.43.0
-  punycode: 2.3.0
   unocss: 0.50.8_7tme4rx2meisg3vgo74h6gl2ay
 
 packages:
@@ -530,6 +530,7 @@ packages:
   /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.22.5:
     resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
     engines: {node: '>=4'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
